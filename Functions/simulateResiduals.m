@@ -10,7 +10,7 @@ function [sim_results] = simulateResiduals(x, y, T_sim, nsims, nPCs)
 %               & Structural Dynamics In Review (2017).
 
 % INPUT
-% x, y     = x and y coordinates for n locations of interest with size [n x 1]
+% x, y     = x and y coordinates (in kilometers) for n locations of interest with size [n x 1]
 % T_sim    = a vector specifying periods to be simulated of size [1 x t]
 % nsims    = number of simulation to be performed
 % nPCs     = number of principal components to be used in simulation
